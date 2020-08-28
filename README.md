@@ -1,11 +1,14 @@
 Sen probably makes sense.
 
-※Another languages : [日本語🎌](./docs/ja/README.md) | ...
+※Another languages : [🗾日本語🎌](./docs/ja/README.md) | ...
 
-# sen
+# ♨️ sen
 省エネ (saving energy) notation. That is sen.
 
-## ◆Idea
+## 📒 Docs
+- [comparison-with-JSON](./docs/en/comparison-with-JSON.md)
+
+## 💡 Idea
 ### ・Dreaming of type-safe CSV (comma-separated values)
 JSON is not very good at passing large sets of records. On the other hand, CSV does not support data structuring and typing.
 ### ・Reach out to the Machines
@@ -18,7 +21,7 @@ It allows programs to access meta information with generic code and register the
 ### ・Multiple text data management
 Subprojects provide an access strategy for data across multiple files.
 
-## ◆Considerations
+## 👉 Considerations
 1. Sen must be provided to the spreadsheet software as secure and manageable data.
 1. Sen must achieve human friendliness and machine readability.
 1. Sen must be designed to be capable of receiving advanced support from the editor software.
@@ -27,11 +30,11 @@ Subprojects provide an access strategy for data across multiple files.
 1. Sen must support adding data to the end of a file.
 1. Sen must be able to minify under a simple rule.
 
-## ◆Future Targets
+## 🧪 Future Targets
 1. Interface Description
 1. Type versioning
 1. Portable function set (low priority)
 
-## ◆
-Please feel free to create an Issue if you have any questions or comments.
+## 📐
+Please feel free to create an Issue if you have any questions or comments.  
 I'm also waiting for a correction in English grammar.
