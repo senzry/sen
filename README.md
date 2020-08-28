@@ -14,6 +14,7 @@ Seeking to be both human-friendly and machine-readable. Allows you to describe h
 Probably no one wants to pollute the payload or file names with metadata.  
 You also don't want to worry about whether the CSV has a header or not.  
 Sen contributes to interoperability by providing a generic standard metadata notation.
+It allows programs to access meta information with generic code and register the data with BI tools without any hassle.
 ### ・Multiple text data management
 Subprojects provide an access strategy for data across multiple files.
 
@@ -22,8 +23,8 @@ Subprojects provide an access strategy for data across multiple files.
 1. Sen must achieve human friendliness and machine readability.
 1. Sen must be designed to be capable of receiving advanced support from the editor software.
 1. Sen must provide data structures that are easily accessible from major programming languages.
-1. Sen must support row-by-row reading.
-1. Sen must support adding data to the end of a line.
+1. Sen must support row-by-row reading. (More precisely, sequential reading.)
+1. Sen must support adding data to the end of a file.
 1. Sen must be able to minify under a simple rule.
 
 ## ◆Future Targets
