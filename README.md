@@ -32,8 +32,6 @@ Subprojects provide an access strategy for data across multiple files.
 1. Type versioning
 1. Portable function set (low priority)
 
-## ◆Request For
-1. Comments
-1. Questions
-1. Help
-1. Implementation
+## ◆
+Please feel free to create an Issue if you have any questions or comments.
+I'm also waiting for a correction in English grammar.
