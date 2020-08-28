@@ -29,6 +29,7 @@ Subprojects provide an access strategy for data across multiple files.
 1. Sen must support row-by-row reading. (More precisely, sequential reading.)
 1. Sen must support adding data to the end of a file.
 1. Sen must be able to minify under a simple rule.
+1. Sen must not be involved in the security of string representation and escaping is minimal.
 
 ## 🧪 Future Targets
 1. Interface Description
