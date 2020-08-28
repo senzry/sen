@@ -24,6 +24,7 @@ Subprojects provide an access strategy for data across multiple files.
 1. Sen must provide data structures that are easily accessible from major programming languages.
 1. Sen must support row-by-row reading.
 1. Sen must support adding data to the end of a line.
+1. Sen must be able to minify under a simple rule.
 
 ## ◆Future Targets
 1. Interface Description
