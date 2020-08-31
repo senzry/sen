@@ -22,6 +22,7 @@ Subprojects provide an access strategy for data across multiple files.
 ## 👉 Considerations
 1. Sen must be provided to the spreadsheet software as secure and manageable data.
 1. Sen must achieve human friendliness and machine readability.
+1. Sen must not be a data structure that relies on line break codes, tabs and spaces.
 1. Sen must be designed to be capable of receiving advanced support from the editor software.
 1. Sen must provide data structures that are easily accessible from major programming languages.
 1. Sen must support row-by-row reading. (More precisely, sequential reading.)
