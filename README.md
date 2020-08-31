@@ -1,9 +1,7 @@
-Sen probably makes sense.
-
-※Another languages : [🗾日本語🎌](./docs/ja/README.md) | ...
-
 # ♨️ sen
-省エネ (saving energy) notation. That is sen.
+省エネ (saving energy) notation. Sen probably makes sense.  
+
+※Another languages : [🗾日本語🎌](./docs/ja/README.md) | ...  
 
 ## 📒 Docs
 - [comparison-with-JSON](./docs/en/comparison-with-JSON.md)
