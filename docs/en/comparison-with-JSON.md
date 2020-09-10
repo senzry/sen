@@ -117,8 +117,9 @@ I don't recommend it, but you can put your comments anywhere except "in the stri
 (f32,f64,f128)  
 - null
 - array  
-(array<T>)
-- key<T>
+(array&lt;T&gt;)
+- value pair
+(key-value pair)
 - BNF based token
 (date,datetime,time,dateoffset,datetimeoffset,timeoffset)  
 (year,month,day of the month,and more...)  
