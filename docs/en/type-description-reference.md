@@ -1,0 +1,86 @@
+***※under construction***
+
+# 🪑 type description reference
+
+## ✔ type define operator ":@ <"
+```sen
+:@Book<
+```
+The definition of type begins with ":@" and ends with "<".  
+with name-fixing operator "$"  
+```sen
+:@$Book<
+```
+
+### ◆ property additions operator ">"
+```sen
+:@Book
+  >title
+<
+```
+with name-fixing operator "$"  
+```sen
+:@$Book
+  >$title
+<
+```
+
+### ◆ type designation operator "@"
+```sen
+:@Book
+  >title @string
+<
+```
+You can specify the type of the property by specifying a type token.  
+// TODO type token  
+// TODO type-determining expression  
+
+### ◆ doc-comment operator "!"
+Doc comment Operator "!" to write a comment is available.    
+It is possible to write a value literal afterwards.  
+
+## 🧩 type expression
+
+### ◆ type alies operator "="
+```sen
+:@Book = string<
+```
+### ◆ type wrap operator "-"
+```sen
+>foo@listof - nullable - string
+
+//"Another way to write"
+>foo@listof<nullable<string>>
+>foo@list<nullable<string>> - nullable - string
+
+```
+
+### ◆ type sum operator "|"
+```sen
+>foo@string | number | "FOO"
+
+//"Another way to write"
+>foo@listof<nullable<string>>
+>foo@list<nullable<string>> - nullable - string
+
+```
+
+
+
+## ◆ // TODO 
+
+```sen
+:@ Book
+  >title @string
+  >price @nullable - number
+  >auther @ :@Human
+    >name @string
+    >birthdate @date
+    >gender @nullable - :@Gender = "male" | "female" | "other" <
+  <
+<
+```
+
+
+
+
