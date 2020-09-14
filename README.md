@@ -4,7 +4,9 @@
 ※Another languages : [🗾日本語🎌](./docs/ja/README.md) | ...  
 
 ## 📒 Docs
-- [comparison-with-JSON](./docs/en/comparison-with-JSON.md)
+- [comparison with JSON](./docs/en/comparison-with-JSON.md)
+- [object description reference](./docs/en/object-description-reference.md)
+- [type description reference](./docs/en/type-description-reference.md)
 
 ## 💡 Idea
 ### ・Dreaming of type-safe CSV (comma-separated values)
