@@ -11,6 +11,7 @@ with name-fixing operator "$"
 ```sen
 :@$Book<
 ```
+In addition, the beginning ":" is a meta-description operator.
 
 ### ◆ property additions operator ">"
 ```sen
