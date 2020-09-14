@@ -2,15 +2,16 @@
 
 # 💎 Object description reference
 
-## ✔ let operator ">"
-Define values by using sub-operators until the next let operator.
+## ✔ payload operator ">"
+The ">" described at the top level is referred to as the payload operator.  
+Define values by using sub-operators until the next payload operator.  
 ```sen
 >foo
 ```
-The let operator must be immediately followed by a name-token, for example "foo".  
+The payload operator must be immediately followed by a name-token, for example "foo".  
 If a type is specified, it describes the value to be set for the corresponding property.  
 See //TODO expanded notation.  
-The sub-operators of let are described below.  
+The sub-operators of payload are described below.  
 
 ### ◆ name-fixing operator "$"
 The following notation I just showed you was actually a shorthand notation.
@@ -55,7 +56,7 @@ You can specify the type of the property by specifying a type token.
 // TODO type token  
 // TODO type-determining expression  
 Sen ignores any whitespace that is unnecessarily sandwiched in between, so you can format it for better viewing.  
-Furthermore, let descriptions are in no order.  
+Furthermore, payload descriptions are in no order.  
 It is also possible to write from a type definition.  
 ```sen
 > @ string 
