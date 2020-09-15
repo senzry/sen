@@ -32,7 +32,7 @@ with name-fixing operator "$"
 <
 ```
 
-### ◆ type designation operator "@"
+#### ◆ type designation operator "@"
 ```sen
 :@Book
   >title @string
@@ -43,8 +43,18 @@ You can specify the type of the property by specifying a type token.
 // TODO type-determining expression  
 
 ### ◆ doc-comment operator "!"
-Doc comment Operator "!" to write a comment is available.    
+Doc comment Operator "!" to write a comment is available.  
 It is possible to write a value literal afterwards.  
+
+// TODO
+
+## ✔ type versioning operator "#"
+Normally, type name duplication will result in an error, but different versions are allowed.
+```sen
+:@Book#0.1.0
+  >title
+<
+```
 
 // TODO
 
