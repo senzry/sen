@@ -46,9 +46,11 @@ You can specify the type of the property by specifying a type token.
 Doc comment Operator "!" to write a comment is available.    
 It is possible to write a value literal afterwards.  
 
+// TODO
+
 ## 🧩 type expression
 
-### ◆ type alies operator "="
+### ◆ type alias operator "="
 ```sen
 :@Book = string<
 ```
@@ -58,21 +60,17 @@ It is possible to write a value literal afterwards.
 
 //"Another way to write"
 >foo@listof<nullable<string>>
->foo@list<nullable<string>> - nullable - string
+//"'listof' is an alias for 'list'."
+>foo@list<nullable<string>>
 
 ```
 
 ### ◆ type sum operator "|"
 ```sen
 >foo@string | number | "FOO"
-
-//"Another way to write"
->foo@listof<nullable<string>>
->foo@list<nullable<string>> - nullable - string
-
+>bar@ "foo" | "bar" | "baz"
+>baz@ 100 | 200 | 300
 ```
-
-
 
 ## ◆ // TODO 
 
