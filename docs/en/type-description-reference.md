@@ -1,6 +1,11 @@
 ***※under construction***
 
 # 🪑 type description reference
+type can be used primarily for the following applications
+- Pre-transmission validation
+- Data validation with some sen editor
+  - Verification rules used in the UI implemented in browsers and other devices
+- Interface Description
 
 ## ✔ type define operator ":@ <"
 ```sen
