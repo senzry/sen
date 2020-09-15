@@ -6,6 +6,7 @@ type can be used primarily for the following applications
 - Data validation with some sen editor
   - Verification rules used in the UI implemented in browsers and other devices
 - Interface Description
+- scaffolding
 
 ## ✔ type define operator ":@ <"
 ```sen
