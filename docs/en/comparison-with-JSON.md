@@ -60,11 +60,11 @@ String in sen (sen-string) is simple and straightforward.
 
 Sen-string can contain all possible characters without escaping.  
 ```sen
->title : "Rainbow Fish"
->code : "978-3-3140-1544-1"
+>title : "Rainbow Fish";
+>code : "978-3-3140-1544-1";
 >remarks: "This book is a hot seller.
-Please stack it as flat as possible."
->sellingPhrase: `Enjoy the beautiful foil stamping and, more importantly, the "beautiful story".`
+Please stack it as flat as possible.";
+>sellingPhrase: `Enjoy the beautiful foil stamping and, more importantly, the "beautiful story".`;
 ```
 Hence, each application layer may require its own sanitization.  
 The basic encoding is UTF8. There is a way to describe the encoding hints is provided.  
