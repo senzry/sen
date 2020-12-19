@@ -24,16 +24,16 @@ To represent a simple single object in a text file, it is written as follows.
 ```sen
 ・sen
 
->title : "Rainbow Fish"
->code : "978-3-3140-1544-1"
->genre : "Children's book"
->issueDate : 1992-01-27
+>title : "Rainbow Fish";
+>code : "978-3-3140-1544-1";
+>genre : "Children's book";
+>issueDate : 1992-01-27;
 >author :
-  >name : "Marcus Pfister"
-  >birthdate : 1960-07-30
-<
->dailySales : 2
->isOutOfPrint : false
+  >name : "Marcus Pfister";
+  >birthdate : 1960-07-30;
+;
+>dailySales : 2;
+>isOutOfPrint : false;
 ```
 They are similar but not the same. Let's check out what's going on, one by one.
 ### Flat
@@ -41,17 +41,17 @@ It's not a big deal, but sen doesn't require a root object like Json.
 If you need a root object, write the following.
 ```sen
 >:
-  >title : "Rainbow Fish"
-  >code : "978-3-3140-1544-1"
-  >genre : "Children's book"
-  >issueDate : 1992-01-27
+  >title : "Rainbow Fish";
+  >code : "978-3-3140-1544-1";
+  >genre : "Children's book";
+  >issueDate : 1992-01-27;
   >author :
-    >name : "Marcus Pfister"
-    >birthdate : 1960-07-30
-  <
-  >dailySales : 2
-  >isOutOfPrint : false
-<
+    >name : "Marcus Pfister";
+    >birthdate : 1960-07-30;
+  ;
+  >dailySales : 2;
+  >isOutOfPrint : false;
+;
 ```
 ### String
 String in sen (sen-string) is simple and straightforward.  
@@ -97,13 +97,13 @@ Property names must be written in alphanumeric form only and must not contain sp
 You can't write comments in JSON, in sen's case it looks like this.
 ```sen
 //"this is a comment."
->title : "Rainbow Fish"//"this is a comment."
+>title : "Rainbow Fish"//"this is a comment.";
 
 //"this
  is 
  a 
  comment."
->code : "978-3-3140-1544-1"
+>code : "978-3-3140-1544-1";
 ```
 **//** represents the beginning of the comment, followed by the string.  
 I don't recommend it, but you can put your comments anywhere except "in the string" and "just before the string".  
